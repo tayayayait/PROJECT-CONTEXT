@@ -1,0 +1,67 @@
+{
+  "color": {
+    "primary": {
+      "50": {"value": "#E8F2FF", "provenance": "docExample"},
+      "100": {"value": "#BFDDFF", "provenance": "docExample"},
+      "200": {"value": "#93C5FD", "provenance": "givenFocusRing"},
+      "300": {"value": "#60A5FA", "provenance": "placeholder"},
+      "400": {"value": "#3B82F6", "provenance": "placeholder"},
+      "500": {"value": "#1D6FF7", "provenance": "placeholder"},
+      "600": {"value": "#0B63F6", "provenance": "given"},
+      "700": {"value": "#0953CC", "provenance": "givenHover"},
+      "800": {"value": "#0742A3", "provenance": "givenPressed"},
+      "900": {"value": "#062F73", "provenance": "docExample"}
+    },
+    "semantic": {
+      "success": {"600": "#16A34A"},
+      "warning": {"600": "#F59E0B"},
+      "danger": {"600": "#DC2626"},
+      "info": {"600": "#0EA5E9"}
+    },
+    "neutral": {
+      "50": "#F9FAFB",
+      "100": "#F3F4F6",
+      "200": "#E5E7EB",
+      "300": "#D1D5DB",
+      "400": "#9CA3AF",
+      "500": "#6B7280",
+      "600": "#4B5563",
+      "700": "#374151",
+      "800": "#1F2937",
+      "900": "#111827",
+      "950": "#0B1220"
+    },
+    "surface": {
+      "background": "#FFFFFF",
+      "subtle": "#F9FAFB",
+      "border": "#E5E7EB",
+      "divider": "#D1D5DB"
+    }
+  },
+  "typography": {
+    "fontFamily": {
+      "sans": ["Pretendard", "ui-sans-serif", "system-ui"],
+      "mono": ["ui-monospace", "SFMono-Regular", "Menlo", "monospace"]
+    },
+    "scale": {
+      "h1": {"size": 28, "line": 36, "weight": 700},
+      "h2": {"size": 24, "line": 32, "weight": 700},
+      "h3": {"size": 20, "line": 28, "weight": 600},
+      "body14": {"size": 14, "line": 20, "weight": 400},
+      "body16": {"size": 16, "line": 24, "weight": 400}
+    }
+  },
+  "spacing": {"1": 4, "2": 8, "3": 12, "4": 16, "5": 20, "6": 24, "8": 32, "10": 40, "12": 48, "16": 64},
+  "radius": {"sm": 8, "md": 12, "lg": 16, "xl": 24},
+  "shadow": {
+    "xsm": "0 1px 1px rgba(0,0,0,0.04)",
+    "sm": "0 1px 2px rgba(0,0,0,0.06)",
+    "md": "0 2px 8px rgba(0,0,0,0.10)",
+    "lg": "0 12px 24px rgba(0,0,0,0.12)"
+  },
+  "motion": {
+    "duration": {"base": 150, "enter": 200, "exit": 150},
+    "easing": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+    "reduceMotion": "prefers-reduced-motion"
+  }
+}

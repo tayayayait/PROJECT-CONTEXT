@@ -1,0 +1,15 @@
+﻿{
+  "app": {
+    "title": "Doc Automation Platform",
+    "nav": {
+      "dashboard": "Dashboard",
+      "projects": "Projects",
+      "upload": "Upload",
+      "search": "Vector Search",
+      "logEditor": "Log Editor",
+      "templates": "Templates",
+      "approvals": "Approvals",
+      "admin": "Admin"
+    }
+  }
+}
